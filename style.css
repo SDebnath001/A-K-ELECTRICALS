@@ -1,0 +1,20 @@
+.carousel-item {
+    height: 32rem;
+}
+[data-bs-theme=dark] .bg-light {
+    background-color: #292a2d;
+}
+
+.fill-white {
+    fill: #fff !important;
+}
+.card-dark{
+    background-color: #292a2d;
+    border: 0;
+}
+.card-dark .icon-link{
+background-color: transparent;
+}
+.card-dark a{
+text-decoration: none;
+}
