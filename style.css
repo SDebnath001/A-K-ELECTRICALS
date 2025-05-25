@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
 .carousel-item {
     height: 32rem;
 }
+
 [data-bs-theme=dark] .bg-light {
     background-color: #292a2d;
 }
@@ -8,13 +11,72 @@
 .fill-white {
     fill: #fff !important;
 }
-.card-dark{
-    background-color: #292a2d;
+
+.card-dark {
+    background-color: #1a1a1d;
     border: 0;
 }
-.card-dark .icon-link{
-background-color: transparent;
+
+.card-dark .icon-link {
+    background-color: transparent;
 }
-.card-dark a{
-text-decoration: none;
+
+.card-dark a {
+    text-decoration: none;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.intro h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.intro .details {
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0px;
+    padding: 0.5em 1.5em;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .intro h2 {
+        font-size: 2rem;
+    }
 }

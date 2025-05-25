@@ -10,27 +10,36 @@
 
 </head>
 <body>
-	<header class="p-3 text-bg-dark">
+	<header class="py-2">
 		<div class="container">
-			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-					<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-				</a>
-				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-					<li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-					<li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-					<li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-					<li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-					<li><a href="#" class="nav-link px-2 text-white">About</a></li>
-				</ul>
-				<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-					<input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-				</form>
-				<div class="text-end">
-					<button type="button" class="btn btn-outline-light me-2">Login</button>
-					<button type="button" class="btn btn-warning">Sign-up</button>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">AK Electricals</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Products</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Services</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Contact</a>
+							</li>
+						</ul>
+						<button class="btn">Log In</button>
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
 	</header>
 
@@ -43,32 +52,32 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item">
-					<svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+					<img src="./public/img/Service.jpg" alt="carousel image 1" class="carousel-img">	
 					<div class="container">
 						<div class="carousel-caption text-start">
-							<h1>Example headline.</h1>
-							<p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-							<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+							<h1>Electrical Services</h1>
+							<p class="opacity-75">Powering Your Home, Empowering Your Future. Full-service electrical installation and maintenance.</p>
+							<p><a class="btn btn-md" href="#">Sign up today</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item active">
-					<svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+					<img src="./public/img/Works.jpg" alt="carousel image 2" class="carousel-img">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Another example headline.</h1>
-							<p>Some representative placeholder content for the second slide of the carousel.</p>
-							<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+							<h1>Electrical Works</h1>
+							<p>From Concept to Current – We've Got You Covered. Custom solutions for construction projects, renovations, and more.</p>
+							<p><a class="btn btn-md" href="#">Learn more</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+					<img src="./public/img/CCTV.jpg" alt="carousel image 3" class="carousel-img">
 					<div class="container">
 						<div class="carousel-caption text-end">
-							<h1>One more for good measure.</h1>
-							<p>Some representative placeholder content for the third slide of this carousel.</p>
-							<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+							<h1>CCTV and DVR</h1>
+							<p>Eyes That Never Blink. Secure Your Home with Our CCTV and DVR Services.</p>
+							<p><a class="btn btn-md" href="#">Browse gallery</a></p>
 						</div>
 					</div>
 				</div>
@@ -82,63 +91,27 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-		<div class="container px-4 py-5">
-			<h2 class="pb-2 border-bottom">Icon grid</h2>
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
+		<div class="container px-4 py-5 intro">
+			<h2 class="pb-2 border-bottom fw-bold text-center">A.K. ELECTRICALS</h2>
+			<div>
+				<div class="p-lg-5 p-2 details">
+					Welcome to A K ELECTRICALS, your trusted electrical solutions provider in Hyderabad. 
+					With years of hands-on expertise, a skilled team, and a commitment to quality, we deliver a wide range of services to homes, 
+					offices, and industries — from basic wiring to smart surveillance systems. Our mission is to empower you with the latest technologies and knowledge to ensure a safe, efficient, and future-ready electrical setup.
 				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#cpu-fill"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#calendar3"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#home"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#toggles2"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#geo-fill"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
-					</div>
-				</div>
-				<div class="col d-flex align-items-start">
-					<svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#tools"></use></svg>
-					<div>
-						<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
+				<div class="col-lg-10 mx-auto my-3 p-lg-3 p-1">
+					<h4 class="fw-bold">Our Experience</h4>
+					<div class="py-lg-4 py-2" style="font-family: 'Quicksand', sans-serif;">
+						<p>
+							With over 10+ years of experience in the electrical industry, 
+							A K ELECTRICALS has built a strong reputation across Hyderabad and surrounding areas for delivering safe, 
+							efficient, and future-ready electrical solutions.
+						</p>
+						<p>
+							We’ve successfully completed residential, commercial, and industrial projects — 
+							from simple wiring jobs to complex automation and surveillance setups. Our skilled electricians are trained in latest standards, 
+							safety protocols, and smart technologies, ensuring quality that lasts.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -151,7 +124,7 @@
 					<p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
 				</div>
 				<div class="col-md-5">
-					<svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+					<img src="./public/img/Services-card.png" alt="ak electricals services image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
 				</div>
 			</div>
 			<hr class="featurette-divider">
@@ -219,7 +192,7 @@
 			<div class="container position-relative py-5">
 				<!-- Title -->
 				<div class="inner-container-small text-center">
-					<h2 class="mb-0 mt-4 text-light">We specialize in the following services</h2>
+					<h2 class="mb-0 mt-4 text-light">||&nbsp; We specialize in the following services &nbsp;||</h2>
 				</div>
 
 				<!-- Service list START -->
@@ -233,8 +206,8 @@
 									<i class="bi bi-stack fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">Digital Marketing</h3>
-								<p>Growing brands online through digital channels.</p>
+								<h3 class="mb-3">Electrical Fans and CCTV</h3>
+								<p>Installation of ceiling, wall-mounted, exhaust, and industrial fans. CCTV camera installation with DVR/NVR setup.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -251,8 +224,8 @@
 									<i class="bi bi-boxes fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">Product Design</h3>
-								<p>Creating products that users love and businesses need .</p>
+								<h3 class="mb-3">Home Appliances</h3>
+								<p>Installation and servicing of major home appliances (washing machines, refrigerators, ovens, etc.) and appliance wiring, socket setup, and circuit load checks.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -269,8 +242,8 @@
 									<i class="bi bi-circle-square fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">Web Design</h3>
-								<p>Designing websites that are visually appealing &amp; user-friendly.</p>
+								<h3 class="mb-3">Professional Lighting</h3>
+								<p>Commercial lighting for showrooms, offices, hotels, and events. Energy-saving upgrades and lighting audits.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -287,8 +260,8 @@
 									<i class="bi bi-vector-pen fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">UI/UX Design</h3>
-								<p>Creating user interfaces that are both efficient and enjoyable.</p>
+								<h3 class="mb-3">Surge Protection & Earthing</h3>
+								<p>Installation of surge protectors for appliances and entire buildings. Earthing system installation and maintenance.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -306,7 +279,7 @@
 								</div>
 								<!-- Content -->
 								<h3 class="mb-3">Business Strategy</h3>
-								<p>Developing and executing plans to achieve business goals.</p>
+								<p>Developing and executing plans to achieve business goals. Identifying opportunities for growth and innovation.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -323,8 +296,8 @@
 									<i class="bi bi-binoculars fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">Research</h3>
-								<p>Gathering and analyzing data to inform decision-making.</p>
+								<h3 class="mb-3">Electrical Wiring</h3>
+								<p>Complete electrical wiring for new constructions and renovations. Rewiring and upgrade of outdated or unsafe systems.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -339,8 +312,8 @@
 								<!-- Icon -->
 								<div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5"><i class="bi bi-code-slash fa-fw fs-5"></i></div>
 								<!-- Content -->
-								<h3 class="mb-3">Web Development</h3>
-								<p>Building and maintaining websites and web applications.</p>
+								<h3 class="mb-3">Inverter & UPS Installation</h3>
+								<p>Installation, maintenance, and battery replacement. Backup power solutions for homes and businesses.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -357,8 +330,8 @@
 									<i class="bi bi-bullseye fa-fw fs-5"></i>
 								</div>
 								<!-- Content -->
-								<h3 class="mb-3">Brand Design</h3>
-								<p>Creating brands that are unique, memorable, and meaningful.</p>
+								<h3 class="mb-3">Electrical Maintenance & Repairs</h3>
+								<p>Preventive maintenance for commercial and residential properties including Troubleshooting and repair of electrical issues.</p>
 							</div>
 							<div class="p-3 mb-3">
 								<a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -369,16 +342,12 @@
 				<!-- Service list END -->
 			</div>
 		</section>
-
-
-
-
 <section class="">
 	<div class="">
 		<div class="bg-primary rounded position-relative overflow-hidden p-5">
 			<div class="row g-4 position-relative my-3 container mx-auto">
 				<div class="col-lg-4">
-					<h2 class="text-white">Let's talk about your digital agency goals</h2>
+					<h2 class="text-white">Let's talk business</h2>
 					<div class="col-md-10 bg-body rounded-2 p-2">
 						<div class="input-group">
 							<input class="form-control focus-shadow-none border-0 me-1" type="email" placeholder="Your email address">
@@ -399,7 +368,7 @@
 								Email: example@gmail.com
 						  </a>
 						</div>
-					</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -407,7 +376,7 @@
 </section>
 		<footer class="container py-3">
 			<p class="float-end"><a href="#">Back to top</a></p>
-			<p>© 2025 AK Electricals. <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+			<p>© 2025 AK Electricals. &nbsp; <a href="#">Privacy</a> · <a href="#">Terms</a></p>
 		</footer>
 	</main>
 </body>
