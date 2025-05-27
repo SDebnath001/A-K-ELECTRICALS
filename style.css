@@ -80,6 +80,23 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/*About page*/
+.about-main h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2em;
+}
+
+.about-main p {
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.card-about {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
 @media (max-width: 768px) {
     .intro h2 {
         font-size: 2rem;
