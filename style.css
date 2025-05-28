@@ -104,7 +104,7 @@ footer a:hover {
     border: 1px solid #000;
 }
 
-/**/
+/*services*/
 .lead {
     font-family: "Quicksand", sans-serif;
 }
@@ -116,6 +116,27 @@ footer a:hover {
 .lead span {
     font-size: 0.7em;
     font-weight: 600;
+}
+
+/*Contact*/
+.contact h2, .contact-info h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.contact-info, .contact-text {
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
