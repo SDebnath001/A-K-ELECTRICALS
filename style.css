@@ -106,8 +106,9 @@ footer a:hover {
 }
 
 /*services*/
-.lead {
+.lead, .featurette p {
     font-family: "Quicksand", sans-serif;
+    text-align: justify;
 }
 
 .featurette-heading {
@@ -116,7 +117,8 @@ footer a:hover {
 
 .lead span {
     font-size: 0.7em;
-    font-weight: 600;
+    font-weight: 900;
+    text-align: justify;
 }
 
 /*Contact*/
