@@ -108,8 +108,13 @@ footer a:hover {
     text-align: justify;
 }
 
+.lead {
+    line-height: 1.1em;
+}
+
 .featurette-heading {
     font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 179);
 }
 
 .lead span {
